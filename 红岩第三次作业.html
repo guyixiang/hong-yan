@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- L0 -->
+    <script>
+        var sentence='hello world'
+        console.log('sentence')
+    </script>
+    <script>
+        var sentence;
+        sentence='hello world';
+        console.log('sentence')
+    </script>
+    <script>
+        var str1='hello',str2='world';
+        str1.concat(str2)
+    </script>
+    <!-- L0 -->
+    <script>
+        var arr = [1,5,6,7,8,10];
+        var sum = 0;
+        for(var i = 0; i<arr.length ; i++)
+        {
+            sum += [i];
+        }
+        console.log(sum);
+    </script>
+    <!-- LV1 -->
+    <script>
+         let str = 'can-enter-volunteer-organization'
+         function stringToCamel(str){
+         var temp=str.split('-');
+         for(var i=1;i<temp.length;i++){
+         temp[i]=temp[i][0].toUpperCase()+temp[i].slice(1);
+         }
+         return temp.join('');
+         }
+    </script>
+    <!-- LV1 -->
+        <script>
+        let newArr = ['myfirstactivity','today activity','yourActivity','activitys']
+        console.log(newArr.includes('activity'));
+        </script>
+    <!-- LV2 -->
+    <script>
+        
+    </script>
+</body>
+</html>
