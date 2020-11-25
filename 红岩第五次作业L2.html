@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       function change()
+       {
+           let d=document.getElementById('background');
+           d.style.backgroundColor="green";
+       }
+        let oUp = document.getElementById('up'); 
+        let oDiv = document.getElementById('change2');
+        let num = 16;
+        oUp.onclick = function () {
+               num += 1.2;
+               oDiv.style.fontSize = num + 'px';
+        }
+    </script>
+</head>
+<body id="background">
+    <input type="button" value="button1" onclick="change()">
+    <input type="button" value="button2" id="up">
+    <div id="change2">NCT太suai了</div>
+</body>
+</html>
